@@ -12,27 +12,49 @@ Analyse automatisée d'un Dossier de Consultation des Entreprises (DCE) : extrac
 | Tesseract OCR | 5.x + (avec pack `fra`) | `brew install tesseract tesseract-lang` (macOS) |
 | Clé API Mistral | — | Requise pour la classification LLM |
 
-> **Tesseract sur Linux :** `sudo apt-get install tesseract-ocr tesseract-ocr-fra`
+### Installation de Tesseract OCR
+
+*   **macOS :** `brew install tesseract tesseract-lang`
+*   **Linux :** `sudo apt-get install tesseract-ocr tesseract-ocr-fra`
+*   **Windows :** 
+    1. Téléchargez l'installeur depuis [UB Mannheim](https://github.com/UB-Mannheim/tesseract/wiki).
+    2. Lors de l'installation, assurez-vous de cocher **"Additional script data"** et **"Additional language data"** -> **"French"**.
+    3. **Important :** Ajoutez le chemin d'installation (ex: `C:\Program Files\Tesseract-OCR`) à votre variable d'environnement `PATH` système, ou modifiez `config.py` pour pointer vers l'exécutable.
 
 ---
 
-## Installation
+## Installation du projet
 
+### Sur macOS / Linux
 ```bash
 # 1. Se placer dans le dossier du projet
 cd detection_aop/
 
 # 2. Créer et activer un environnement virtuel
 python3 -m venv .venv
-source .venv/bin/activate        # macOS / Linux
-# .venv\Scripts\activate         # Windows
+source .venv/bin/activate
 
 # 3. Installer les dépendances
 pip install -r requirements.txt
 
 # 4. Configurer la clé API Mistral
 export MISTRAL_API_KEY=votre_clé_mistral
-# ou copier .env.example → .env et renseigner la clé
+```
+
+### Sur Windows
+```powershell
+# 1. Se placer dans le dossier du projet
+cd detection_aop/
+
+# 2. Créer et activer l'environnement virtuel
+python -m venv .venv
+.\.venv\Scripts\activate
+
+# 3. Installer les dépendances
+pip install -r requirements.txt
+
+# 4. Configurer la clé API Mistral
+$env:MISTRAL_API_KEY="votre_clé_mistral"
 ```
 
 ---
