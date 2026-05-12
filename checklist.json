@@ -1,0 +1,363 @@
+[
+    {
+        "id": "DEMANDE_ASSURANCE",
+        "label": "Demande d'assurance SMABTP complétée et signée",
+        "phase": "constitution",
+        "obligatoire": true,
+        "search_type": "single",
+        "folder_keywords": [],
+        "aliases": [
+            "demande d'assurance",
+            "demande assurance",
+            "SMABTP",
+            "formulaire assurance",
+            "demande_assurance",
+            "formulaire_smabtp",
+            "souscription"
+        ]
+    },
+    {
+        "id": "KBIS",
+        "label": "Extrait K-BIS de moins de 3 mois",
+        "phase": "constitution",
+        "obligatoire": true,
+        "search_type": "single",
+        "folder_keywords": [],
+        "aliases": [
+            "K-BIS",
+            "KBIS",
+            "extrait kbis",
+            "registre du commerce",
+            "RCS",
+            "kbis",
+            "extrait_kbis",
+            "extrait rcs"
+        ]
+    },
+    {
+        "id": "PIECE_IDENTITE",
+        "label": "Pièce(s) d'identité des bénéficiaires effectifs",
+        "phase": "constitution",
+        "obligatoire": true,
+        "search_type": "single",
+        "folder_keywords": [],
+        "aliases": [
+            "pièce d'identité",
+            "CNI",
+            "passeport",
+            "bénéficiaire effectif",
+            "identité",
+            "piece_identite",
+            "cni_",
+            "passport",
+            "carte identite"
+        ]
+    },
+    {
+        "id": "CCTP",
+        "label": "CCTP des entreprises et/ou devis descriptif",
+        "phase": "constitution",
+        "obligatoire": true,
+        "search_type": "set",
+        "folder_keywords": ["CCTP"],
+        "aliases": [
+            "CCTP",
+            "cahier des charges techniques",
+            "devis descriptif",
+            "cahier des clauses techniques particulières",
+            "cctp",
+            "clauses techniques",
+            "cctc",
+            "descriptif technique",
+            "lot_",
+            "devis_"
+        ]
+    },
+    {
+        "id": "PLANS",
+        "label": "Jeu de Plans Complet (Masse / Façade / Coupe)",
+        "phase": "constitution",
+        "obligatoire": true,
+        "search_type": "set",
+        "folder_keywords": ["PLANS"],
+        "aliases": [
+            "plan de masse",
+            "plan de façade",
+            "plan de coupe",
+            "jeu de plans",
+            "plans architecte",
+            "plan masse",
+            "plan situation",
+            "plan rdc",
+            "plan_",
+            "coupe_",
+            "facade_",
+            "carnet",
+            "structure_"
+        ]
+    },
+    {
+        "id": "PLANNING",
+        "label": "Planning des travaux",
+        "phase": "constitution",
+        "obligatoire": true,
+        "search_type": "single",
+        "folder_keywords": [],
+        "aliases": [
+            "planning",
+            "planning travaux",
+            "planning prévisionnel",
+            "calendrier travaux",
+            "gantt",
+            "planning_",
+            "calendrier_",
+            "planning execution",
+            "retroplanning"
+        ]
+    },
+    {
+        "id": "ETUDE_SOL",
+        "label": "Rapport d'étude de sol minimum G2 PRO (DTU 13.1)",
+        "phase": "constitution",
+        "obligatoire": true,
+        "search_type": "set",
+        "folder_keywords": ["ETUDE DE SOL"],
+        "aliases": [
+            "étude de sol",
+            "rapport géotechnique",
+            "G2 PRO",
+            "G1",
+            "rapport de sol",
+            "sondage",
+            "DTU 13.1",
+            "fondations",
+            "g2_pro",
+            "g2 avp",
+            "g1_",
+            "rapport_g2",
+            "rapport_g1",
+            "geotechnique",
+            "geotechnique_",
+            "etude_sol",
+            "sol_"
+        ]
+    },
+    {
+        "id": "RAPPORT_CT_INITIAL",
+        "label": "Rapport Initial du Contrôleur Technique",
+        "phase": "constitution",
+        "obligatoire": true,
+        "search_type": "single",
+        "folder_keywords": [],
+        "aliases": [
+            "rapport initial",
+            "contrôleur technique",
+            "rapport CT",
+            "mission CT",
+            "RVRAT",
+            "rapport de contrôle technique initial",
+            "rapport_ct",
+            "ct_initial",
+            "rapport_initial",
+            "rvrat_"
+        ]
+    },
+    {
+        "id": "MATERIAUX_REEMPLOI",
+        "label": "Liste des matériaux de réemploi",
+        "phase": "constitution",
+        "obligatoire": false,
+        "search_type": "single",
+        "folder_keywords": [],
+        "aliases": [
+            "matériaux de réemploi",
+            "réemploi",
+            "matériaux réutilisés",
+            "liste réemploi",
+            "reemploi",
+            "materiaux_reemploi",
+            "liste_reemploi"
+        ]
+    },
+    {
+        "id": "DOC",
+        "label": "Copie de la DOC signée ou premier OS signé",
+        "phase": "contrat",
+        "obligatoire": true,
+        "search_type": "single",
+        "folder_keywords": [],
+        "aliases": [
+            "DOC",
+            "déclaration d'ouverture de chantier",
+            "ordre de service",
+            "OS",
+            "ouverture chantier",
+            "doc_",
+            "declaration_ouverture",
+            "ouverture_chantier",
+            "ordre_de_service",
+            "os_"
+        ]
+    },
+    {
+        "id": "PERMIS_CONSTRUIRE",
+        "label": "Copie de l'arrêté du permis de construire ou déclaration de travaux",
+        "phase": "contrat",
+        "obligatoire": true,
+        "search_type": "single",
+        "folder_keywords": ["ARRETE PC"],
+        "aliases": [
+            "permis de construire",
+            "PC",
+            "déclaration de travaux",
+            "DP",
+            "arrêté",
+            "autorisation de construire",
+            "arrete_pc",
+            "arrete pc",
+            "permis_construire",
+            "pc_",
+            "dp_"
+        ]
+    },
+    {
+        "id": "CONTRAT_MOE",
+        "label": "Contrat(s) de Maîtrise d'Œuvre",
+        "phase": "contrat",
+        "obligatoire": true,
+        "search_type": "set",
+        "folder_keywords": ["CONTRAT MOE"],
+        "aliases": [
+            "contrat de maîtrise d'œuvre",
+            "contrat MOE",
+            "mission maîtrise d'œuvre",
+            "contrat architecte",
+            "MOE",
+            "contrat_moe",
+            "ccap_moe",
+            "cctp_moe",
+            "acte_engagement_moe",
+            "contrat_architecte",
+            "moe_"
+        ]
+    },
+    {
+        "id": "LISTE_INTERVENANTS",
+        "label": "Liste de tous les intervenants au chantier (MOE comprise)",
+        "phase": "contrat",
+        "obligatoire": true,
+        "search_type": "single",
+        "folder_keywords": [],
+        "aliases": [
+            "liste des intervenants",
+            "intervenants chantier",
+            "liste entreprises",
+            "sous-traitants",
+            "liste lots",
+            "liste_intervenants",
+            "intervenants_",
+            "annuaire_chantier",
+            "liste_entreprises"
+        ]
+    },
+    {
+        "id": "ATTESTATIONS_DECENNALE",
+        "label": "Attestations d'assurance décennale de l'ensemble des intervenants",
+        "phase": "contrat",
+        "obligatoire": true,
+        "search_type": "set",
+        "folder_keywords": [],
+        "aliases": [
+            "assurance décennale",
+            "attestation décennale",
+            "garantie décennale",
+            "RC décennale",
+            "attestation assurance",
+            "attestation_assurance",
+            "decennale",
+            "rcd",
+            "rcp",
+            "rc_pro",
+            "global constructeur",
+            "assurance_decennale",
+            "attestation_rc"
+        ]
+    },
+    {
+        "id": "REFERE_PREVENTIF",
+        "label": "Référé Préventif (en cas d'avoisinant)",
+        "phase": "contrat",
+        "obligatoire": false,
+        "search_type": "single",
+        "folder_keywords": [],
+        "aliases": [
+            "référé préventif",
+            "constat avoisinant",
+            "constat d'huissier",
+            "avoisinant",
+            "constat contradictoire",
+            "refere_preventif",
+            "constat_avoisinant",
+            "huissier_"
+        ]
+    },
+    {
+        "id": "PV_RECEPTION",
+        "label": "Procès-verbaux de réception de chantier avec levée des réserves",
+        "phase": "reception",
+        "obligatoire": true,
+        "search_type": "set",
+        "folder_keywords": [],
+        "aliases": [
+            "procès-verbal de réception",
+            "PV de réception",
+            "réception chantier",
+            "levée des réserves",
+            "PV réception",
+            "pv_reception",
+            "pv_",
+            "reception_chantier",
+            "levee_reserves",
+            "pvr_"
+        ]
+    },
+    {
+        "id": "COUT_DEFINITIF",
+        "label": "Déclaration du coût définitif de l'opération",
+        "phase": "reception",
+        "obligatoire": true,
+        "search_type": "single",
+        "folder_keywords": [],
+        "aliases": [
+            "coût définitif",
+            "coût final",
+            "déclaration coût",
+            "coût réel",
+            "coût opération",
+            "cout_definitif",
+            "declaration_cout",
+            "cout_final",
+            "decompte_"
+        ]
+    },
+    {
+        "id": "RAPPORT_CT_FINAL",
+        "label": "Rapport Final du Contrôleur Technique",
+        "phase": "reception",
+        "obligatoire": true,
+        "search_type": "set",
+        "folder_keywords": ["RICT"],
+        "aliases": [
+            "rapport final",
+            "rapport CT final",
+            "RICT",
+            "rapport de contrôle technique final",
+            "levée CT",
+            "rict",
+            "rit_",
+            "rapport_ct_final",
+            "ct_final",
+            "rapport_final_ct"
+        ]
+    }
+]

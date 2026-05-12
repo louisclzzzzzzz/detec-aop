@@ -1,0 +1,23 @@
+# Clé API (ancienne méthode — ne jamais committer)
+api_key
+
+# Variables d'environnement
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+
+# Rapports générés
+output/
+
+# Données volumineuses
+DCE/
+
+# macOS
+.DS_Store
